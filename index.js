@@ -8,14 +8,14 @@ const buttons = document.querySelectorAll('button');
 clicked.remove();
 function appear(e) {
 
-    if (counter == 1) {
+    if (counter == 0) {
         user.remove();
         parent.appendChild(clicked);
-        counter = 0;
+        counter = 1;
     } else {
         clicked.remove();
         parent.appendChild(user);
-        counter = 1;
+        counter = 0;
     }
 }
 
