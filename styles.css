@@ -71,8 +71,8 @@
         align-items: center;
         height: 5rem;
         gap: 4rem;
-        border-bottom-left-radius: 3%;
-        border-bottom-right-radius: 3%;
+        border-bottom-left-radius: 4%;
+        border-bottom-right-radius: 4%;
     }
 
     #user {
@@ -131,8 +131,8 @@
         justify-content: space-between;
         align-items: center;
         height: 5rem;
-        border-bottom-left-radius: 3%;
-        border-bottom-right-radius: 3%;
+        border-bottom-left-radius: 5% 15%;
+        border-bottom-right-radius: 5% 15%;
 
     }
 
