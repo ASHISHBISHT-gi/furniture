@@ -3,7 +3,7 @@ const user = document.querySelector(".user");
 const clicked = document.querySelector(".clicked");
 const parent = document.querySelector(".detail");
 const button = document.querySelector("button");
-
+clicked.remove();
 
 // Define media queries
 const mobileQuery = window.matchMedia("(max-width:73.0625em)");

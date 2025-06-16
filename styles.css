@@ -201,7 +201,7 @@
         height: 42%;
         border-top-right-radius: 5% 5%;
         border-bottom-right-radius: 5% 5%;
-        
+
     }
 
     /* image */
@@ -291,49 +291,54 @@
         font-size: 13px;
         font-weight: 700;
     }
-    .clicked{
+
+    .clicked {
         background-color: hsl(217, 19%, 35%);
-        width:55%;
-        height:18%;
-        border-radius:15px;
-        position:absolute;
-        left:17rem;
-        bottom:6.4rem;
-        
+        width: 55%;
+        height: 18%;
+        border-radius: 15px;
+        position: absolute;
+        left: 54%;
+        bottom: 33%;
     }
 
-    #clicked{
+
+    #clicked {
         position: relative;
-        display:flex;
+        display: flex;
         justify-content: center;
-        align-items:center;
-        gap:1.5rem;
-        height:100%;
-         /* z-index:2; */
+        align-items: center;
+        gap: 1.5rem;
+        height: 100%;
+        /* z-index:2; */
         /* padding:10%; */
     }
-    #clicked>p{
+
+    #clicked>p {
         color: hsl(210, 46%, 95%);
         letter-spacing: 0.4rem;
     }
 
-    .social{
-        display:flex;
-        gap:1rem;
-        align-items:center;
-        z-index:2;
+    .social {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        z-index: 2;
     }
-    .social>a:first-child>img{
+
+    .social>a:first-child>img {
         /* z-index:1; */
     }
-    .square{
-        position:absolute;
-        width:10%;
-        aspect-ratio:1;
+
+    .square {
+        position: absolute;
+        width: 10%;
+        aspect-ratio: 1;
         background-color: hsl(217, 19%, 35%);
-        bottom:-0.8rem;
-        z-index:1;
-        left:8.5rem;
+        bottom: -5%;
+        z-index: 1;
+        left: 53.125%;
         transform: rotate(45deg);
     }
+
 }
